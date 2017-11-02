@@ -1,0 +1,174 @@
+ /* global properties */
+*{
+    font-family: open sans;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    background-size: cover;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #033048;
+}
+
+h3 {
+    font-size: 32px
+    font-weight: 800;
+}
+
+.cap {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+    color: #606161;
+}
+
+
+
+
+ /* header styles */
+header {
+    height: 100px;
+    background-color: #033048;
+    margin: 0;
+}
+
+#headerlogo {
+    color: white;
+    font-size: 38px;
+    font-weight: bolder;
+    padding-left: 10%;
+    padding-top: 5px;
+    float: left;
+}
+
+nav {
+    text-decoration: none;
+    display: inline;
+    padding-right: 80px
+}
+
+.navtabs {
+    color: #f9e42e;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    float: right;
+    margin-top: 40px;
+    padding-right: 30px;
+}
+
+ /* main body styles */
+main {
+    background-color: #F2F6F5;
+    position: relative;
+    overflow: none;
+    height: 1700px;
+}
+
+#blogs {
+    position: absolute;
+    left: 10%;
+    width: 55%;
+    margin-top: 50px;
+}
+
+.readmore {
+    text-decoration: none;
+    text-align: right;
+    display:block;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #033048;
+}
+
+article {
+    font-size: 22px;
+    font-weight: lighter;
+}
+aside {
+    position: absolute;
+    margin-left: 70%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+.more {
+    margin: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    color: #033048;
+}
+
+#learnmore {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color:#033048;
+}
+
+ /* footer styles */
+
+#signup {
+    height: 80px;
+    background-color: #f9e42e;
+    text-align: center;
+    padding: 30px;
+    font-size: 22px;
+ }
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 450px;
+}
+
+#footerlogo {
+    color: yellow;
+    padding-top: 20px;
+}
+button {
+    background: #033048;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 45px;
+    width: 300px;
+    border-style: none;
+ }
+
+#bottomfooter {
+    margin:0;
+    height: 300px
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+#social {
+    padding: 20px;
+}
+#copyright {
+    font-size: 18px;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+}
